@@ -1,0 +1,38 @@
+.pricing-title-text {
+  font-size: 36px;
+  margin-top: 75px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.pricing-sub-text {
+  font-size: 24px;
+  color: #4A4A4A;
+}
+
+.pricing-card-left {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.pricing-card-right {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+
+.pricing-big-number {
+  font-size: 88px 
+}
+
+.pricing-middle-number {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing-card-left, .pricing-card-right {
+    justify-content: center;
+    padding: 0;
+  }
+}

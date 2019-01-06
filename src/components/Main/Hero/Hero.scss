@@ -1,0 +1,58 @@
+.hero-container {
+  position: relative;
+  height: 900px;
+  bottom: 110px;
+  background-image: linear-gradient(269.2deg, rgba(69, 14, 106, 0.7) 0%, rgba(149, 104, 0, 0.7) 100%, rgba(213, 149, 0, 0.7) 100%), url('../../../assets/images/house1.png'), ;
+  background-position-y: -100px;
+  background-attachment: fixed;
+}
+
+.title-text {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.sub-title-text {
+  font-size: 24px;
+}
+
+.wavy-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 386px;
+  background-size: cover;
+  background: url('../../../assets/images/white-wavy-bottom-layered.png');
+  z-index: 5;
+}
+
+.google-play {
+  background: url('../../../assets/images/google-play.png');
+  height: 43px;
+  width: 134px;
+  background-size: cover;
+}
+
+.app-store {
+  background: url('../../../assets/images/app-store.png');
+  height: 34px;
+  width: 104px;
+  background-size: contain;
+  margin-top: 9px;
+}
+
+.hero-right-image {
+  background: url('../../../assets/images/hold-app.png');
+  height: 85%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-right-image {
+    display: none;
+  }
+}

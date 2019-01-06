@@ -1,0 +1,61 @@
+
+.login-bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(269.2deg, darken(rgba(69, 14, 106, 0.9), 8) 0%, darken(rgba(149, 104, 0, 0.9), 8) 100%, darken(rgba(213, 149, 0, 0.9), 8) 100%), url('../../assets/images/house1.png'), ;
+  background-position-y: -100px;
+  background-attachment: fixed;
+
+}
+
+.login-container {
+  height: 546px;
+  width: 470px;
+  border: 3px solid rgba(149, 121, 155, 0.35);
+  border-radius: 13px;
+  background-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.35);
+  padding: 30px 40px;
+}
+
+.login-logo {
+  background-image: url('../../assets/icons/logo-boxes.png');
+  height: 106px;
+  width: 275px;
+  background-size: cover;
+}
+
+.login-subtext {
+  font-size: 14px;
+  color: #D8D8D8;
+  margin: 0;
+  line-height: 23px;
+  transition: 0.3s all;
+
+  &:hover {
+    color: #D59500;
+    cursor: pointer;
+  }
+}
+
+.login-button {
+  margin-left: 12.5%;
+}
+
+.login-icon-background {
+  background-color: #6d4974;
+  height: 48px;
+  width: 48px;
+}
+
+.input-group-text {
+  background-color: #6D4974;
+  color: #D8D8D8;
+  border: none;
+}
+
+.login-placeholder {
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+.admin-billing-header {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.admin-billing-info-box {
+  border: 2px solid #705366;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 14px 3px rgba(0,0,0,0.5);
+  height: 145px;
+}
+
+.admin-billing-top-row {
+  h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57px;
+    text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  h4 {
+    font-size: 18px;
+    color: #A4B5BD;
+    line-height: 27px;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,59 @@
+
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Lato');
+
+$primary-color: #510F5E;
+$primary-light: #95799B;
+$secondary-color: #D59500;
+
+$theme-colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  primary-light: $primary-light
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+/* GLOBAL STYLES */
+
+/* FONTS */
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.catamaran {
+  font-family: 'Catamaran', sans-serif;
+}
+
+/* COLORS */
+.white-color {
+  color: #eee;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+// SIZES
+
+.w-20 {
+  width: 20%;
+}
+
+// OTHER HELPERS
+
+.btn-transparent {
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

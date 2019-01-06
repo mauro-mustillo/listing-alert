@@ -1,0 +1,79 @@
+.company-form-left-side {
+  height: 466px;
+  color: #D8D8D8;
+  padding: 0px 50px;
+}
+
+.company-form-icon {
+  height: 106px;
+  width: 275px;
+  background: url('../../../assets/icons/logo-boxes.png');
+  background-size: cover;
+}
+
+.company-form-header-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #D8D8D8;
+}
+
+.company-form-sub-text {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.company-form-icon-background {
+  background-color: #6d4974;
+  height: 48px;
+  width: 48px;
+}
+
+.company-form-inputs {
+  padding: 50px 25px;
+}
+
+.company-form-check-text {
+  color: #d8d8d8;
+}
+
+.company-form-license-box {
+  height: 121px;
+  width: 210px;
+  border-radius: 6px;
+  background-color: #6D4974;
+  color: #B598BB;
+  transition: 0.3s all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: lighten(#6D4974, 8);
+  }
+}
+
+.company-form-progress-bar {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  opacity: 0.36;
+}
+
+.company-form-progress-bar-active {
+  opacity: 1;
+}

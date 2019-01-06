@@ -1,0 +1,54 @@
+.getnow-hide-blur {
+  margin-top: 150px;
+}
+
+.getnow-bg-house {
+  position: relative;
+  background: url('../../../assets/images/get-now-bg.png');
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.getnow-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(269.23deg, #450E6A 0%, #412E02 100%, #D59500 100%);
+  opacity: 0.8;
+  left: 0;
+  filter: blur(0px);
+  z-index: 1;
+}
+
+.getnow-half {
+  color: #eee;
+  z-index: 5;
+  height: 100%;
+
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.getnow-image {
+  height: 600px;
+  width: 400px;
+  background: url('../../../assets/images/mobile-app-login.png');
+  background-size: cover;
+  z-index: 5;
+  position: relative;
+  bottom: 110px
+
+}
+
+@media only screen and (max-width: 576px) {
+  .getnow-image {
+    display: none;
+  }
+}

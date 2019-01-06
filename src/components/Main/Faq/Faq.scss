@@ -1,0 +1,33 @@
+.faq-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+.faq-sub-title {
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #4A4A4A;
+  width: 50%;
+}
+
+.faq-header {
+  background-color: #F9F9F9;
+  padding: 20px;
+  margin-top: 10px;
+
+  h4 {
+    margin: 0;
+    font-size: 24px;
+    color: #9C73A4;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .faq-sub-title {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

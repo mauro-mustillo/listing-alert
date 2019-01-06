@@ -1,0 +1,18 @@
+.paginator-button {
+  background-color: #510F5E;
+  border-color: #510F5E;
+  color: #D8D8D8;
+  transition: 0.3s all;
+
+  &:hover {
+    color: #e6d81a;
+  }
+}
+
+.paginator-body {
+  border: 3px solid #95799B;
+  border-radius: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 14px 3px rgba(0, 0, 0, 0.5);
+  min-height: 640px;
+}

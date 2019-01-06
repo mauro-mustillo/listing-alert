@@ -1,0 +1,81 @@
+.superuser-side-bar {
+  background: linear-gradient(90deg, #300E42 0%, #1F1A23 100%, #13021A 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  width: 250px;
+  color: #95799B;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.superuser-side-bar-collapse-trigger {
+  width: 100%;
+  background-color: #471D5E;
+  border: none;
+  color: #F4CF77;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin-bottom: 2px;
+  transition: 0.3s all;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: lighten(#471D5E, 5);
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.superuser-side-bar-collapse-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 75px;
+  color: #ECDAB2;
+
+  li {
+    transition: 0.3s all;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+
+}
+
+.superuser-sidebar-text {
+  color: inherit;
+  transition: 0.3s all;
+
+  &:hover {
+    color: lighten(#95799B, 10);
+  }
+}
+
+.superuser-right-side {
+  margin-left: 250px;
+  width: 100%;
+}
+
+.superuser-header-bar {
+  height: 75px;
+  background: linear-gradient(180deg, #541D72 0%, #1F1A23 100%, #D59500 100%);
+  color: #F4CF77;
+
+  input {
+    background-color: transparent;
+    border: none;
+  }
+ }
+
+.superuser-main-body {
+  background-image: linear-gradient(269.2deg, darken(rgba(183, 130, 165, 0.9), 38) 0%, darken(rgba(183, 130, 165, 0.9), 38) 100%, darken(rgba(183, 130, 165, 0.9), 38) 100%), url('../../assets/images/house1.png'), ;
+  min-height: calc(100vh - 75px);
+  color: #fff;
+ }
